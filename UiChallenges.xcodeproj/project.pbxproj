@@ -14,6 +14,9 @@
 		F57E99632A67152100F70DEB /* UiChallengesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E99622A67152100F70DEB /* UiChallengesTests.swift */; };
 		F57E996D2A67152100F70DEB /* UiChallengesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E996C2A67152100F70DEB /* UiChallengesUITests.swift */; };
 		F57E996F2A67152100F70DEB /* UiChallengesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E996E2A67152100F70DEB /* UiChallengesUITestsLaunchTests.swift */; };
+		F57E997D2A67165A00F70DEB /* TabViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E997C2A67165A00F70DEB /* TabViewNavigation.swift */; };
+		F57E997F2A67167C00F70DEB /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E997E2A67167C00F70DEB /* Setting.swift */; };
+		F57E99812A67168B00F70DEB /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E99802A67168B00F70DEB /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F57E99682A67152100F70DEB /* UiChallengesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UiChallengesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57E996C2A67152100F70DEB /* UiChallengesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiChallengesUITests.swift; sourceTree = "<group>"; };
 		F57E996E2A67152100F70DEB /* UiChallengesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiChallengesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F57E997C2A67165A00F70DEB /* TabViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewNavigation.swift; sourceTree = "<group>"; };
+		F57E997E2A67167C00F70DEB /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		F57E99802A67168B00F70DEB /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		F57E99502A67151900F70DEB /* UiChallenges */ = {
 			isa = PBXGroup;
 			children = (
+				F57E997B2A67163100F70DEB /* Tabs */,
 				F57E99512A67151900F70DEB /* UiChallengesApp.swift */,
 				F57E99532A67151900F70DEB /* ContentView.swift */,
 				F57E99552A67152000F70DEB /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				F57E996E2A67152100F70DEB /* UiChallengesUITestsLaunchTests.swift */,
 			);
 			path = UiChallengesUITests;
+			sourceTree = "<group>";
+		};
+		F57E997B2A67163100F70DEB /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				F57E997C2A67165A00F70DEB /* TabViewNavigation.swift */,
+				F57E997E2A67167C00F70DEB /* Setting.swift */,
+				F57E99802A67168B00F70DEB /* HomePage.swift */,
+			);
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57E99812A67168B00F70DEB /* HomePage.swift in Sources */,
 				F57E99542A67151900F70DEB /* ContentView.swift in Sources */,
+				F57E997D2A67165A00F70DEB /* TabViewNavigation.swift in Sources */,
+				F57E997F2A67167C00F70DEB /* Setting.swift in Sources */,
 				F57E99522A67151900F70DEB /* UiChallengesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

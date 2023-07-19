@@ -9,15 +9,12 @@ import SwiftUI
 
 struct TabViewNavigation: View {
     var body: some View {
-        NavigationView{
+        TabView {
+            
+            HomePage()
+            Setting()
+            
 
-            TabView {
-                
-                HomePage()
-                Setting()
-                
-
-            }
         }
     }
 }

@@ -26,6 +26,13 @@ struct ListItem: View {
     }
 }
 
-#Preview {
-    ListItem()
+struct ListItem_Previews: PreviewProvider {
+    static var previews: some View {
+        ListItem()
+    
+    }
 }
+
+//#Preview {
+//    ListItem()
+//}

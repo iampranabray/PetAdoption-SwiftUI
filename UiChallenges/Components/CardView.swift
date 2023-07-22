@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CardView: View {
+    
+    var item : Item = items[0]
+    
     var body: some View {
         VStack(alignment: .leading, spacing:8.0) {
             Image("7652324.")
@@ -16,13 +19,13 @@ struct CardView: View {
                 .frame(height: 128).frame(maxWidth: .infinity)
             
             
-            Text("Apple Of The Year")
+            Text(item.title)
             
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
             
-            Text("A Complete Guide to design for ios 14 with videos, examples and design files")
+            Text(item.text)
                 .foregroundColor(.white)
                 .opacity(0.7)
             Text("20 Sections - 3 Hours")
@@ -31,11 +34,15 @@ struct CardView: View {
         }
         .padding(.all)
         .frame(width: 252,height:329)
-        .background(Color.blue)
+        .background(item.gradient)
         .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
     }
 }
 
-#Preview {
-    CardView()
+
+struct CardView_Previews: PreviewProvider {
+    static var previews: some View {
+        CardView()
+    
+    }
 }

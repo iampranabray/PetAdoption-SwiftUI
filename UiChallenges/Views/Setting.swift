@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Setting: View {
     var body: some View {
-        Text("Settings")
+        ListView()
             .tabItem {
             Image(systemName: "text.justify")
             Text("Settings")

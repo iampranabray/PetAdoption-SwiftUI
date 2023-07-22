@@ -47,6 +47,10 @@ struct DetailView: View {
     }
 }
 
-#Preview {
-    DetailView()
+struct DetailView_Previews: PreviewProvider {
+    static var previews: some View {
+        DetailView()
+    
+    }
 }
+

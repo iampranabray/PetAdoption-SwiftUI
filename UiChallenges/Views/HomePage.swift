@@ -1,6 +1,6 @@
 //
 //  home.swift
-//  Landmarks
+//  UI
 //
 //  Created by ams it on 18/07/2023.
 //
@@ -20,13 +20,15 @@ struct HomePage : View{
             ScrollView {
                 ScrollView(.horizontal,showsIndicators: false) {
                     HStack(spacing: 16.0) {
-                        ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                        ForEach(items) { item in
                             
                             NavigationLink(destination: DetailView()) {
-                                CardView()
+                                
+                                CardView(item: item)
                             }
                             
                         }
+                        
 
                     }
                 }

@@ -1,6 +1,6 @@
 //
 //  home.swift
-//  UI
+//  Landmarks
 //
 //  Created by ams it on 18/07/2023.
 //
@@ -22,18 +22,31 @@ struct HomePage : View{
                     HStack(spacing: 16.0) {
                         ForEach(items) { item in
                             
-                            NavigationLink(destination: DetailView()) {
+                            NavigationLink(destination: DetailView(item:item)) {
                                 
                                 CardView(item: item)
                             }
                             
                         }
-                        
 
                     }
                 }
                 .padding()
-            }.navigationTitle("Learn Swift UI")
+                
+                Text("Adopt Me")
+                    .font(.title2).bold()
+                    .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading)
+                    .padding()
+                
+                LazyVGrid (columns:[GridItem(.adaptive(minimum: 160),spacing: 16)],spacing: 16){
+                    ForEach(items) { item in
+                        NavigationLink(destination: DetailView(item: item) ) {
+                            SmallCardView(item: item)
+                        }
+                        
+                    }
+                }.padding()
+            }.navigationTitle("Pet Adoption")
                 
         }.tabItem {
             Image(systemName: "house.fill")

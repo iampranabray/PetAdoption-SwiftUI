@@ -13,10 +13,10 @@ struct CardView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing:8.0) {
-            Image("7652324.")
+            Image(item.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(height: 128).frame(maxWidth: .infinity)
+                .frame(height: 150).frame(maxWidth: .infinity)
             
             
             Text(item.title)

@@ -21,6 +21,7 @@
 		F57E99852A67248600F70DEB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E99842A67248600F70DEB /* CardView.swift */; };
 		F57E99872A67270D00F70DEB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E99862A67270D00F70DEB /* ListView.swift */; };
 		F57E99892A67A0A400F70DEB /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E99882A67A0A400F70DEB /* ListItem.swift */; };
+		F5D5765B2A6DCEDA0067339B /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D5765A2A6DCEDA0067339B /* SmallCardView.swift */; };
 		FCA557802A6807E9007C5BC2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA5577F2A6807E9007C5BC2 /* Data.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		F57E99842A67248600F70DEB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F57E99862A67270D00F70DEB /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		F57E99882A67A0A400F70DEB /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		F5D5765A2A6DCEDA0067339B /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
 		FCA5577F2A6807E9007C5BC2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +173,7 @@
 			children = (
 				F57E99882A67A0A400F70DEB /* ListItem.swift */,
 				F57E99842A67248600F70DEB /* CardView.swift */,
+				F5D5765A2A6DCEDA0067339B /* SmallCardView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				FCA557802A6807E9007C5BC2 /* Data.swift in Sources */,
 				F57E99852A67248600F70DEB /* CardView.swift in Sources */,
 				F57E99812A67168B00F70DEB /* HomePage.swift in Sources */,
+				F5D5765B2A6DCEDA0067339B /* SmallCardView.swift in Sources */,
 				F57E99892A67A0A400F70DEB /* ListItem.swift in Sources */,
 				F57E99832A671BBE00F70DEB /* DetailView.swift in Sources */,
 				F57E99542A67151900F70DEB /* ContentView.swift in Sources */,
